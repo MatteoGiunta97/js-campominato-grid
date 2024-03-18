@@ -54,7 +54,7 @@ function createNewGame() {
 
     // Per numberOfSquares volte voglio creare uno square
     for (let i = 1; i <= numberOfSquares; i++) {
-        const thisNumber = 1;
+        const thisNumber = i;
 
         const square = generateSquare(thisNumber, numberOfCellsPerRow);
         square.addEventListener('click', function() {
